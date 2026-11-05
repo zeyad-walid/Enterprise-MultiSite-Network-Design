@@ -8,7 +8,7 @@ An enterprise-grade, highly available network topology designed, simulated, and 
 
 Below is the complete network topology layout designed in Huawei eNSP, showcasing the core routers, aggregation switches, access switches, dynamic VLAN segments, and WAN Server deployment:
 
-![Full Network Topology](./images/topology.png)
+![Full Network Topology](./topology.png)
 
 ---
 
@@ -96,7 +96,7 @@ The infrastructure consists of four primary branches, categorized by their VLAN 
 ### 1. OSPF Neighbor Validation
 Validation of dynamic adjacency establishment across multiple areas:
 
-![OSPF Adjacency Verification](./images/ospf_verification.png)
+![OSPF Adjacency Verification](./ospf_verification.png)
 
 ```huawei
 display ospf peer brief
@@ -106,7 +106,7 @@ display ip routing-table
 ### 2. Multi-IP & Multi-VLAN Ping Verification
 End-to-end reachability verification between clients in different VLANs across remote branches and the WAN Server (`192.168.1.10`):
 
-![Multi-IP Ping Test](./images/ping_test.png)
+![Multi-IP Ping Test](./ping_test.png)
 
 ---
 
